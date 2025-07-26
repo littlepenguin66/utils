@@ -29,7 +29,7 @@ for k=1:2:nargs
             end
         case 'position'
             pos=varargin{k+1};
-            if(any(pos)>1 || any(pos<0))
+            if(any(pos>1) || any(pos<0))
                 error('position must be in normalized units (all values between 0 and 1)');
             end
             if(length(pos)~=4 || ~isnumeric(pos))
