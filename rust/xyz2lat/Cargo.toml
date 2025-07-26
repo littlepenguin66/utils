@@ -1,0 +1,16 @@
+[package]
+name = "xyz2lat"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.41", features = ["derive"] }
+csv = "1.3.1"
+env_logger = "0.11.8"
+log = "0.4.27"
+proj = "0.30.0"
+
+[[bin]]
+name = "xyz2lat"
+path = "src/main.rs"
+description = "A powerful coordinate transformation tool using the `proj` library to convert between different Coordinate Reference Systems (CRS)."

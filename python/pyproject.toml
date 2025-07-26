@@ -1,7 +1,0 @@
-[project]
-name = "python"
-version = "0.1.0"
-description = "utils in python script"
-readme = "README.md"
-requires-python = ">=3.13"
-dependencies = ["pyproj>=3.7.1"]
